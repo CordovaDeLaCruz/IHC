@@ -1,9 +1,11 @@
+
 @import url("calificaciones.css");
+
+@import url("mensaje.css");
 
 header{
     background: #1C282D;
     padding: 0 !important;
-    
 }
 .contenedor_header{
     padding: 0 !important;
@@ -185,7 +187,16 @@ footer{
 .header_opciones li a:hover::before{
     width:100%;
 }
-
+.header_opciones li .active::before{
+     content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #FFB30F;
+    width: 100%;
+    height: 3px;
+    transition: all 0.4s;
+}
 body{
     position: relative;
     overflow-x: hidden;
@@ -200,6 +211,7 @@ body{
     border-right: 0px;
     transform: translateX(100%);
     transition: all 0.4s ease-in-out;
+    z-index: 1;
 }
 
 .traer_menu_opcion{
