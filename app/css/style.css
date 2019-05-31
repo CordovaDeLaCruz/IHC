@@ -1,7 +1,8 @@
+@import url("mensaje.css");
+
 header{
     background: #1C282D;
     padding: 0 !important;
-    
 }
 .contenedor_header{
     padding: 0 !important;
@@ -198,6 +199,7 @@ body{
     border-right: 0px;
     transform: translateX(100%);
     transition: all 0.4s ease-in-out;
+    z-index: 1;
 }
 
 .traer_menu_opcion{
