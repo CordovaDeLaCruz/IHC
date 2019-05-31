@@ -1,3 +1,27 @@
+<?php
+$fac=$cur=$men=$calific=$calend=0;
+
+switch (basename($_SERVER['PHP_SELF'])) {
+    case "inicio.php": 
+      $fac='active'; 
+    break;
+    case "cursos.php": 
+      $cur='active'; 
+    break;
+    case "mensajes.php": 
+      $men='active'; 
+    break;
+    case "calificaciones.php": 
+      $calific='active'; 
+    break;
+    case "calendario.php": 
+      $calend='active'; 
+    break;
+} 
+?>
+   
+
+   
 <header class="col-xs-12">
     <div class="contenedor_header col-xs-12">
         <div class="logo col-xs-4 col-sm-2 col-md-4 hidden-xs hidden-sm">
@@ -49,11 +73,11 @@
 <div class="header_opciones col-xs-12">
     <div class="container">
        <nav>
-           <li><a href="">Mi Facultad</a></li>
-           <li><a href="">Mis Cursos</a></li>
-           <li><a href="">Mis Mensajes</a></li>
-           <li><a href="">Mis Calificaciones</a></li>
-           <li><a href="">Calendario</a></li>
+           <li><a class="<?= $fac; ?>" href="inicio.php">Mi Facultad</a></li>
+           <li><a class="<?= $cur; ?>" href="cursos.php">Mis Cursos</a></li>
+           <li><a class="<?= $men; ?>" href="mensajes.php">Mis Mensajes</a></li>
+           <li><a class="<?= $calific; ?>" href="calificaciones.php">Mis Calificaciones</a></li>
+           <li><a class="<?= $calend; ?>" href="calendario.php">Calendario</a></li>
        </nav> 
     </div>
 </div>
@@ -65,10 +89,10 @@
 
 <div class="menu_opc_movil">
     <div class="cont_opc_movil">
-        <li><a href="">Mi Perfil</a></li>
-         <li><a href="">Calendario</a></li>
-          <li><a href="">Mensajes</a></li>
-         <li><a href="">Calificaciones</a></li>
+        <li><a href="perfil.php">Mi Perfil</a></li>
+         <li><a href="calendario.php">Calendario</a></li>
+          <li><a href="mensajes.php">Mensajes</a></li>
+         <li><a href="calificaciones.php">Calificaciones</a></li>
          <div class="cont_button_cerrar">
              <button>Cerrar Sesión</button>
          </div>
