@@ -6,11 +6,10 @@
            <div class="col-xs-12">
             <div class="srch_bar">
               <div class="stylish-input-group">
-                <div class="form-group has-success has-feedback">
-              <label class="control-label sr-only" for="inputSuccess5">Hidden label</label>
-              <input type="text" class="form-control" id="inputSuccess5" aria-describedby="inputSuccess5Status">
-              <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
-              <span id="inputSuccess5Status" class="sr-only">(success)</span>
+                <div class="form-group ">
+              <input type="text" class="form-control" placeholder="Buscar">
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+              
             </div>
             </div>
           </div>
@@ -133,7 +132,7 @@
           <div class="type_msg">
             <div class="input_msg_write">
               <input type="text" class="write_msg" placeholder="Type a message" />
-              <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+              <button class="msg_send_btn" type="button"><i class="glyphicon glyphicon-play" aria-hidden="true"></i></button>
             </div>
           </div>
         </div>

@@ -1,4 +1,28 @@
-<header class="col-xs-12">
+<?php
+$fac=$cur=$men=$cali=$cale=0;
+
+switch (basename($_SERVER['PHP_SELF'])) {
+    case "inicio.php": 
+      $fac='active'; 
+    break;
+    case "cursos.php": 
+      $cur='active'; 
+    break;
+    case "mensajes.php": 
+      $men='active'; 
+    break;
+    case "calificaciones.php": 
+      $cali='active'; 
+    break;
+    case "calendario.php": 
+      $cale='active'; 
+    break;
+} 
+?>
+   
+
+   
+   <header class="col-xs-12">
     <div class="contenedor_header col-xs-12">
         <div class="logo col-xs-4 col-sm-2 col-md-4 hidden-xs hidden-sm">
             <img class="img-responsive block-center" src="app/img/logo_pc.png" alt="">
@@ -49,11 +73,11 @@
 <div class="header_opciones col-xs-12">
     <div class="container">
        <nav>
-           <li><a href="inicio.php">Mi Facultad</a></li>
-           <li><a href="cursos.php">Mis Cursos</a></li>
-           <li><a href="mensajes.php">Mis Mensajes</a></li>
-           <li><a href="calificaciones.php">Mis Calificaciones</a></li>
-           <li><a href="calendario.php">Calendario</a></li>
+           <li><a class="<?= $fac; ?>" href="inicio.php">Mi Facultad</a></li>
+           <li><a class="<?= $cur; ?>" href="cursos.php">Mis Cursos</a></li>
+           <li><a class="<?= $men; ?>" href="mensajes.php">Mis Mensajes</a></li>
+           <li><a class="<?= $cali; ?>" href="calificaciones.php">Mis Calificaciones</a></li>
+           <li><a class="<?= $cale; ?>" href="calendario.php">Calendario</a></li>
        </nav> 
     </div>
 </div>

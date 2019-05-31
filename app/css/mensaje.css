@@ -1,6 +1,6 @@
 .contenedor_mensaje{
     background: #fff;
-}
+} 
 img{ max-width:100%;}
 .inbox_people {
   
@@ -65,7 +65,9 @@ img{ max-width:100%;}
 .inbox_chat { height: 550px; overflow-y: scroll;}
 
 .active_chat{ background:#ebebeb;}
-
+.chat_list:hover{
+    background:#ebebeb;
+}
 .incoming_msg_img {
   display: inline-block;
   width: 6%;
@@ -124,7 +126,7 @@ img{ max-width:100%;}
   width: 100%;
 }
 
-.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.type_msg {border-top: 1px solid #EBEBEB;position: relative;}
 .msg_send_btn {
   background: #05728f none repeat scroll 0 0;
   border: medium none;
@@ -138,6 +140,14 @@ img{ max-width:100%;}
   top: 11px;
   width: 33px;
 }
+
+.input_msg_write{
+    padding: 13px 40px;
+}
+.msg_send_btn{
+    margin-right: 40px;
+    margin-top: 11px;
+}
 .messaging { padding: 0 0 50px 0;}
 .msg_history {
   height: 548px;
@@ -147,7 +157,7 @@ img{ max-width:100%;}
 .stylish-input-group>div input{
     width: 100%;
 }
-./*stylish-input-group>div{
+.stylish-input-group>div{
     position: relative;
     padding: 0px 40px;
     margin: 20px 0px;
@@ -156,9 +166,11 @@ img{ max-width:100%;}
 .stylish-input-group>div span{
 
     position: absolute;
-    right: 0px;
-    top: 0;
-}*/
+    right: 60px;
+    top: 8px;
+    font-size: 1.5em;
+    color: #707070;
+}
 
 /*Responsive*/
 
