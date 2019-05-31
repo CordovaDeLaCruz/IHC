@@ -1,0 +1,100 @@
+/*============CONTENEDOR============*/
+#content_calificaciones{
+	display: inline-block;
+	padding: 30px;
+	width: 100%;
+}
+
+/*============CURSOS============*/
+#calif_cursos{
+	display: inline-block;
+	border: solid 1px #8d8d8d;
+	width: 30%;
+	padding: 10px 30px 30px 30px;
+	bottom: 0px;
+	background-color: #fafafa;
+}
+
+.content_curso{
+	border: solid 1px #8d8d8d;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 25px 0px;
+	background: white;
+}
+.content_curso p{
+	width: 100%;
+}
+.content_curso p:nth-child(2){
+	text-align: right;
+}
+
+/*============DESCRIPCIÓN DE TAREAS============*/
+#calif_descri{
+	display: inline-block;
+	border: solid 1px #8d8d8d;
+	float: right;
+	width: 67%;
+	padding: 5px 30px 0px 30px;
+	height: 100%;
+	background-color: #fafafa;
+}
+.tarea{
+	border: solid 1px #8d8d8d;
+	margin: 0px 0px 30px 0px;
+	padding: 10px;
+	background-color: white;
+}
+
+.descrip_tarea{
+	display: inline-block;
+	width: 65%;
+}
+
+.caract_tarea{
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 30%;
+	padding: 10px 0px;
+}
+
+.estado{
+	display: block;
+	margin: 18px 0px;
+}
+.estado div{
+	display: inline-block;
+	width: 45%;
+}
+.estado div:nth-child(2){
+	text-align: center;
+}
+
+.nota{
+	display: block;
+	margin: 18px 0px;
+}
+.nota div{
+	display: inline-block;
+	width: 45%;
+}
+.nota div:nth-child(2){
+	text-align: center;
+}
+.nota div:nth-child(2) div{
+	display: inline-block;
+	border-radius: 50%;
+	border: solid 1px red;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+}
+
+#entregado{
+	color: blue;
+}
+#no_entregado{
+	color: red;
+}
