@@ -22,6 +22,7 @@
                         <div class="info_general_titulo">
                             INFORMACIÓN PARA ALUMNOS
                         </div>
+                        <hr>
                         <div class="info_general_contenedor">
                             <div class="col-md-12">
                                 <p>Un mensaje general por parte del administrador</p>
@@ -34,6 +35,7 @@
                         <div class="catalogo_cursos_titulo">
                             CATÁLOGO DE CURSOS
                         </div>
+                        <hr>
                         <div class="catalogo_cursos_contenedor">
 
                         </div>
@@ -44,6 +46,7 @@
                         <div class="lista_cursos_titulo">
                             LISTA DE CURSOS
                         </div>
+                        <hr>
                         <div class="lista_cursos_contenedor">
                             <div class="col-md-12">
                                 <p>Cursos en los que usted es: Alumno</p>
@@ -62,6 +65,7 @@
                         <div class="mis_cursos_titulo">
                             MIS CURSOS
                         </div>
+                        <hr>
                         <div class="mis_cursos_contenedor">
                             <div class="col-md-12">
                                 <p>Cursos en los que usted es: Alumno</p>
