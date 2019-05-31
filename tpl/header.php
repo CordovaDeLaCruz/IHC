@@ -54,7 +54,8 @@ switch (basename($_SERVER['PHP_SELF'])) {
                </li>
                 <li class="opc_link">
                    <button>
-                        <span class="glyphicon glyphicon-user" aria-hidden="true" style="font-size:30px;color:white"></span>
+                       <i class="material-icons md-36" style="font-size:40px; color:white;">person</i>
+                        <!-- <span class="glyphicon glyphicon-user" aria-hidden="true" style="font-size:30px;color:white"></span> -->
                        <!-- <img class=" block-center" src="app/img/user1.png" alt=""> -->
                    </button>
                </li>
