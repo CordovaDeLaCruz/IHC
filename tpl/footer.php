@@ -8,10 +8,10 @@
                 <p>Visítanos:</p>
                 <div class="img_footer">
                     <li>
-                        <img class="img-responsive"  src="app/img/mundo.png" alt="">
+                        <img class="img-responsive"  src="app/img/logo_web.png" alt="">
                     </li>
                     <li>
-                        <img  class="img-responsive"  src="app/img/facebook-logo.png" alt="">
+                        <img  class="img-responsive"  src="app/img/fb_logo.png" alt="">
                     </li>
                 </div>
             </div>

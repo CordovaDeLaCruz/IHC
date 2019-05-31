@@ -94,7 +94,9 @@ switch (basename($_SERVER['PHP_SELF'])) {
           <li><a href="mensajes.php">Mensajes</a></li>
          <li><a href="calificaciones.php">Calificaciones</a></li>
          <div class="cont_button_cerrar">
-             <button>Cerrar Sesión</button>
+             <a href="login.php">
+                 <button>Cerrar Sesión</button>
+             </a>
          </div>
     </div>
 </div>
