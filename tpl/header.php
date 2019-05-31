@@ -49,11 +49,11 @@
 <div class="header_opciones col-xs-12">
     <div class="container">
        <nav>
-           <li><a href="">Mi Facultad</a></li>
-           <li><a href="">Mis Cursos</a></li>
-           <li><a href="">Mis Mensajes</a></li>
-           <li><a href="">Mis Calificaciones</a></li>
-           <li><a href="">Calendario</a></li>
+           <li><a href="inicio.php">Mi Facultad</a></li>
+           <li><a href="cursos.php">Mis Cursos</a></li>
+           <li><a href="mensajes.php">Mis Mensajes</a></li>
+           <li><a href="calificaciones.php">Mis Calificaciones</a></li>
+           <li><a href="calendario.php">Calendario</a></li>
        </nav> 
     </div>
 </div>
@@ -65,10 +65,10 @@
 
 <div class="menu_opc_movil">
     <div class="cont_opc_movil">
-        <li><a href="">Mi Perfil</a></li>
-         <li><a href="">Calendario</a></li>
-          <li><a href="">Mensajes</a></li>
-         <li><a href="">Calificaciones</a></li>
+        <li><a href="perfil.php">Mi Perfil</a></li>
+         <li><a href="calendario.php">Calendario</a></li>
+          <li><a href="mensajes.php">Mensajes</a></li>
+         <li><a href="calificaciones.php">Calificaciones</a></li>
          <div class="cont_button_cerrar">
              <button>Cerrar Sesión</button>
          </div>
