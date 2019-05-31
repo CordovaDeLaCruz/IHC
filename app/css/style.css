@@ -1,6 +1,7 @@
 @import url("calificaciones.css");
 @import url('login.css');
 @import url("mensaje.css");
+@import url('principal.css');
 
 header{
     background: #1C282D;
