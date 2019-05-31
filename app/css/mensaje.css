@@ -124,7 +124,11 @@ img{ max-width:100%;}
   width: 100%;
 }
 
-.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+.type_msg {
+    border-top: 2px solid #EBEBEB;
+    position: relative;
+    padding: 10px 34px;
+}
 .msg_send_btn {
   background: #05728f none repeat scroll 0 0;
   border: medium none;
@@ -140,26 +144,33 @@ img{ max-width:100%;}
 }
 .messaging { padding: 0 0 50px 0;}
 .msg_history {
-  height: 548px;
+  height: 553px;
     padding: 40px 30px;
   overflow-y: auto;
 }
 .stylish-input-group>div input{
     width: 100%;
-}
-./*stylish-input-group>div{
     position: relative;
+    border: 2px solid #F1F1F1; 
+}
+
+.stylish-input-group>div{
     padding: 0px 40px;
     margin: 20px 0px;
 }
 
 .stylish-input-group>div span{
-
+    
     position: absolute;
-    right: 0px;
-    top: 0;
-}*/
-
+    right: 60px;
+    top: 30px;
+    font-size: 1.2em;
+    color: #707070;
+}
+.msg_send_btn{
+    margin-right: 40px;
+    margin-top: 7px;
+}
 /*Responsive*/
 
 /* iphone 4 */
