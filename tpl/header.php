@@ -34,9 +34,10 @@
                    </button>
                </li>
                 <li class="opc_link">
-                    <button>
-                        <div class="triangulo"></div>
-                        <div class="linea"></div>
+                    <button class="btn_menu">
+                        <div class="linea1"></div>
+                        <div class="linea2"></div>
+                        <div class="linea3"></div>
                    </button>
                </li>
             </nav>
@@ -45,3 +46,31 @@
     </div>
 
 </header>
+<div class="header_opciones col-xs-12">
+    <div class="container">
+       <nav>
+           <li><a href="">Mi Facultad</a></li>
+           <li><a href="">Mis Cursos</a></li>
+           <li><a href="">Mis Mensajes</a></li>
+           <li><a href="">Mis Calificaciones</a></li>
+           <li><a href="">Calendario</a></li>
+       </nav> 
+    </div>
+</div>
+
+
+
+
+
+
+<div class="menu_opc_movil">
+    <div class="cont_opc_movil">
+        <li><a href="">Mi Perfil</a></li>
+         <li><a href="">Calendario</a></li>
+          <li><a href="">Mensajes</a></li>
+         <li><a href="">Calificaciones</a></li>
+         <div class="cont_button_cerrar">
+             <button>Cerrar Sesión</button>
+         </div>
+    </div>
+</div>

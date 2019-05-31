@@ -1,9 +1,15 @@
 $(document).ready(function(){
 
-
-    var ancho= $(window).width();
-
-    console.log(ancho);
+ $('.btn_menu').click(function(){
+     $('.menu_opc_movil').toggleClass('traer_menu_opcion');
+     $('.linea1').toggleClass('linea11');
+     $('.linea2').toggleClass('linea22');
+     $('.linea3').toggleClass('linea33');
+ });
+    
+    
+    
+   
     
 }); 
 
