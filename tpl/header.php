@@ -17,6 +17,15 @@ switch (basename($_SERVER['PHP_SELF'])) {
     case "calendario.php": 
       $calend='active'; 
     break;
+    case "cursos-detalle.php": 
+      $cur='active'; 
+    break;
+    case "tarea.php": 
+      $cur='active'; 
+    break;
+    case "tarea-detalle.php": 
+      $cur='active'; 
+    break;
 } 
 ?>
    
@@ -35,10 +44,10 @@ switch (basename($_SERVER['PHP_SELF'])) {
                 <li class="opc_link">
                     <select class="form-control">
                       <option checked>SEMESTRES</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
+                      <option>2019-I</option>
+                      <option>2018-II</option>
+                      <option>2018-I</option>
+                      <option>2017-II</option>
                     </select>
                </li>
                <li class="opc_link">
@@ -91,7 +100,7 @@ switch (basename($_SERVER['PHP_SELF'])) {
 
 <div class="menu_opc_movil">
     <div class="cont_opc_movil">
-        <li><a href="perfil.php">Mi Perfil</a></li>
+        <li><a href="#">Mi Perfil</a></li>
          <li><a href="calendario.php">Calendario</a></li>
           <li><a href="mensajes.php">Mensajes</a></li>
          <li><a href="calificaciones.php">Calificaciones</a></li>
