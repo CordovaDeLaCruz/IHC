@@ -6,6 +6,7 @@
 @import url('tarea.css');
 @import url('principal.css');
 @import url('calendar.css');
+@import url('tarea-detalle.css');
 header{
     background: #1C282D;
     padding: 0 !important;

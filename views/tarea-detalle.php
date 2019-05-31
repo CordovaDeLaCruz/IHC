@@ -36,30 +36,45 @@
             </div>
             <div class="info_general_detalle">
                 <h2>
-                    INFORMACION GENERAL
+                    SEMANA 2
                 </h2>
             </div>
             <div class="curso_info_detalle">
                 <div class="curso_sillabus">
-                    <div>
-                        <i class="material-icons md-36">assignment</i>
-                    </div>
-                    <a href="">
-                        <h2>SYLLABUS</h2>
-                    </a>
+                    <h4>SEGUNDO TRABAJO</h4>
                 </div>
                 <div class="curso_contenido">
                     <div class="curso_bienvenida center-block">
                         <div>
                             <i class="material-icons md-36">local_library</i>
                         </div>
-                        <h2>BIENVENIDO AL CURSO</h2>
+                        <h5>DESCRIPION DE LA TAREA</h5>
                     </div>
                     <div class="curso_bienvenida_cuerpo">
                         <p>
-                        Me da mucho gusto darles la bienvenida a este nuevo curso en la Universidad. Para la mayoría, se trata de la continuidad de sus estudios universitarios; para otros, es el último tramo de un itinerario que está a punto de concluir y, para unos más, es el inicio de un recorrido exigente y que les supondrá su mayor esfuerzo. Quiero aprovechar este breve mensaje de bienvenida para recordarles que la universidad —el proyecto que cada una y cada uno de ustedes han decidido acometer— es en la medida de lo que sus estudiantes aporten, mediante el diálogo y la constante circulación del pensamiento.
+                            Investigar sobre:
+                            <ul>1. Analisis de tareas, metodología actual o moderna</ul>
+                            <ul>2. Prototipos, metodología actual y herramientas</ul>
+                            <ul>3. Principios, guias y estándares.</ul>
                         </p>
-                        <img src="../app/img/logo_ihc.png" alt="">
+                    </div>
+                    <div>
+                        <h5>MATERIAL DE LA TAREA:</h5>
+                        <div class="curso_bienvenida center-block">
+                            <div>
+                                <i class="material-icons md-36">cloud_download</i>
+                            </div>
+                            <a href="">
+                                <h5>Segundo_trabajo_investigacion.pdf</h5>
+                            </a>
+                        </div> 
+                    </div>
+                    <div class="subir_tarea centrar">
+                        <i class="material-icons md-36">cloud_upload</i>
+                    </div>
+                    <div class="derecha">
+                        <button class="btn_azul" type="submit" name="action">Enviar
+                        </button>
                     </div>
                 </div>
             </div>

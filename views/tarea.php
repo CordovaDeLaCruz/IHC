@@ -12,7 +12,9 @@
             <div>
                 <ul class="list-group">
                     <li class="list-group-item">Semana 1</li>
-                    <li class="list-group-item">Semana 2</li>
+                    <li class="list-group-item">
+                    <a href="tarea.php">Semana 2</a>
+                    </li>
                     <li class="list-group-item">Semana 3</li>
                     <li class="list-group-item">Semana 4</li>
                     <li class="list-group-item">Semana 5</li>
