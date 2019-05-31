@@ -41,7 +41,8 @@
                 <div class="curso_sillabus">
                     <div>
                         <i class="material-icons md-36">assignment</i>
-                    </div><a href="">
+                    </div>
+                    <a href="">
                         <h2>SYLLABUS</h2>
                     </a>
                 </div>

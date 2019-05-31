@@ -3,6 +3,7 @@
 @import url("mensaje.css");
 @import url('cursos.css');
 @import url('cursos-detalle.css');
+@import url('tarea.css');
 @import url('principal.css');
 
 header{
@@ -92,9 +93,6 @@ header{
 .linea1{
     transform: translate()
 }
-footer{
-    
-}
 
 .footer1{
     background: #1C282D; 
@@ -159,9 +157,6 @@ footer{
     background: #1E3984;
 }
 
-.header_opciones .container{
-    
-}
 .header_opciones nav{
     display: flex;
 }
