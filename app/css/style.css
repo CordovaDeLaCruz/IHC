@@ -3,6 +3,7 @@
 @import url("mensaje.css");
 @import url('cursos.css');
 @import url('cursos-detalle.css');
+@import url('principal.css');
 
 header{
     background: #1C282D;

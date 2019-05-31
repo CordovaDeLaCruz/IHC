@@ -1,0 +1,54 @@
+/*============CONTENEDOR PRIMARIO============*/
+#content_pri{
+	display: inline-block;
+	padding: 30px;
+	width: 100%;
+}
+/*============CONTENEDOR SECUNDARIO============*/
+#content_sec{
+    display: inline-block;
+    padding: 30px;
+	width: 100%;
+}
+/*============CURSOS============*/
+#mis_cursos{
+	display: inline-block;
+	border: solid 1px #8d8d8d;
+    width: 40%;
+	padding: 10px 30px 30px 30px;
+	bottom: 0px;
+	background-color: #fafafa;
+}
+/*============ANUNCIOS============*/
+#mis_anuncios{
+	display: inline-block;
+	border: solid 1px #8d8d8d;
+	float: right;
+	width: 57%;
+	padding: 10px 30px 30px 30px;
+	height: 100%;
+	background-color: #fafafa;
+}
+/*============ORGANIZACIONES============*/
+#mis_organizaciones{
+	display: inline-block;
+	border: solid 1px #8d8d8d;
+    width: 40%;
+	padding: 10px 30px 30px 30px;
+	bottom: 0px;
+	background-color: #fafafa;
+}
+/*============TAREAS============*/
+#mis_tareas{
+	display: inline-block;
+	border: solid 1px #8d8d8d;
+	float: right;
+	width: 57%;
+	padding: 10px 30px 30px 30px;
+	height: 100%;
+	background-color: #fafafa;
+}
+#linea{
+    border: 1px #8d8d8d solid;
+}
+
