@@ -1,0 +1,85 @@
+html { 
+    background: url(../img/fondo_fisi.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+#login_view{
+    position: relative;
+}
+
+.panel_login{
+    margin-top: 100px;
+    width: 100%;
+    position: absolute;
+}
+
+.panel_container{
+    height: 500px;
+}
+.panel_left{
+    height: 500px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 40px 40px 40px 40px;
+    background-color: rgb(30,57,132,0.9);
+}
+
+.panel_left_icons{
+    margin-top: 150px;
+}
+
+.panel_left_icons img{
+    padding: 10px;
+}
+
+.panel_right{
+    height: 500px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: rgba(67,71,186,0.5);
+}
+
+.logo_login{
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input_login{
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.input_login:focus{
+    border-color:#FFB30F;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 0.7; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white !important;
+}
+
+.button_login{
+    background-color: #FFB30F;
+    border-color:#FFB30F;
+    color: black;
+    font-size: 16px;
+    width: 200px; 
+}
+
+.button_login:focus, .button_login:hover{
+    background-color:#C78400;
+    border-color:#C78400;
+}
