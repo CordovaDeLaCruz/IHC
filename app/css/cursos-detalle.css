@@ -2,3 +2,54 @@
     background: #fff;
     padding: 10px 0px 10px 0px;
 }
+
+.info_general_detalle{
+    border: 1px solid #8d8d8d;
+    padding-left: 20px;
+}
+
+.curso_title{
+    text-align: center;
+}
+
+.curso_sillabus{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #8d8d8d;
+}
+
+.curso_contenido{
+    margin-top: 10px;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #8d8d8d;
+}
+
+.curso_sillabus h2{
+    margin: 0;
+    padding-left: 30px;
+}
+.material-icons.md-36{
+    font-size:36px;
+    color: #1E3984;
+}
+
+.curso_bienvenida{
+    display:inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.curso_bienvenida h2{
+    margin: 0;
+    padding-left: 30px;
+}
+.curso_bienvenida .md-36{
+    font-size: 40px;
+}
+.curso_bienvenida_cuerpo{
+    padding: 10px;
+}
