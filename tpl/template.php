@@ -24,6 +24,16 @@
   <link rel="stylesheet" href="app/css/bootstrap.css"/>
   <link rel="stylesheet" href="app/css/style.css"/>
 
+<link href='packages/core/main.css' rel='stylesheet' />
+<link href='packages/daygrid/main.css' rel='stylesheet' />
+<link href='packages/list/main.css' rel='stylesheet' />
+<script src='packages/core/main.js'></script>
+<script src='packages/interaction/main.js'></script>
+<script src='packages/daygrid/main.js'></script>
+<script src='packages/list/main.js'></script>
+<script src='packages/google-calendar/main.js'></script>
+
+
   <script src="app/js/jquery.js"></script>
   <script src="app/js/fancybox.js"></script>
   <script src="app/js/bootstrap.js"></script>

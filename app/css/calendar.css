@@ -1,0 +1,23 @@
+.calendar{
+    background: #ffffff !important;
+}
+
+ #loading {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+        padding: 20px 0px;
+  }
+
+.box_calendar{
+    margin: 30px 0px;
+    /* padding: 60px 20px; */
+    background: #FAFAFA;
+
+}
