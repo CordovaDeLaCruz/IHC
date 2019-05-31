@@ -19,9 +19,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Gerson Carrasco<span class="chat_date">mayo 20</span></h5>
+                  <p>Hola tienes las planchas de Gestion de configuración</p>
                 </div>
               </div>
             </div>
@@ -29,9 +28,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Erick Cordova<span class="chat_date">mayo 5</span></h5>
+                  <p>Tienes la tarea que dejo metodologia</p>
                 </div>
               </div>
             </div>
@@ -39,9 +37,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Jorge Diaz <span class="chat_date">Abril 25</span></h5>
+                  <p>Te envio la tarea de Testing</p>
                 </div>
               </div>
             </div>
@@ -49,9 +46,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Juan Eneque<span class="chat_date">Abri 20</span></h5>
+                  <p>Buenas tarde compañero hemos hecho grupo</p>
                 </div>
               </div>
             </div>
@@ -59,9 +55,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Elmer Diaz<span class="chat_date">Mayo 15</span></h5>
+                  <p>EL profe de tesis dejo tarea</p>
                 </div>
               </div>
             </div>
@@ -69,9 +64,8 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Raul Caballero<span class="chat_date">Mayo 7</span></h5>
+                  <p>Te paso los papers que la profe dejo en metodologia</p>
                 </div>
               </div>
             </div>
@@ -79,9 +73,17 @@
               <div class="chat_people">
                 <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
                 <div class="chat_ib">
-                  <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                  <p>Test, which is a new approach to have all solutions 
-                    astrology under one roof.</p>
+                  <h5>Juan Elias<span class="chat_date"> Abril 14</span></h5>
+                  <p>Tienes los puntos que dejo la profe de metodologia</p>
+                </div>
+              </div>
+            </div>
+            <div class="chat_list">
+              <div class="chat_people">
+                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                <div class="chat_ib">
+                  <h5>Juan Elias<span class="chat_date"> Abril 14</span></h5>
+                  <p>Tienes los puntos que dejo la profe de metodologia</p>
                 </div>
               </div>
             </div>
@@ -95,38 +97,34 @@
               <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
               <div class="received_msg">
                 <div class="received_withd_msg">
-                  <p>Test which is a new approach to have all
-                    solutions</p>
-                  <span class="time_date"> 11:01 AM    |    June 9</span></div>
+                  <p>La profesora dejo tarea para investigar sobre los antecedentes</p>
+                  <span class="time_date"> 11:01 AM    |     mayo 5</span></div>
               </div>
             </div>
             <div class="outgoing_msg">
               <div class="sent_msg">
-                <p>Test which is a new approach to have all
-                  solutions</p>
-                <span class="time_date"> 11:01 AM    |    June 9</span> </div>
+                <p>Ok Gerson gracias </p>
+                <span class="time_date"> 11:01 AM    |    mayo 5</span> </div>
             </div>
             <div class="incoming_msg">
               <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
               <div class="received_msg">
                 <div class="received_withd_msg">
-                  <p>Test, which is a new approach to have</p>
-                  <span class="time_date"> 11:01 AM    |    Yesterday</span></div>
+                  <p>Hola tienes que venir para que te evalue la profesora</p>
+                  <span class="time_date"> 11:01 AM    |    Ayer</span></div>
               </div>
             </div>
             <div class="outgoing_msg">
               <div class="sent_msg">
-                <p>Apollo University, Delhi, India Test</p>
-                <span class="time_date"> 11:01 AM    |    Today</span> </div>
+                <p>Estoy cerca a la facultad, gracias</p>
+                <span class="time_date"> 11:01 AM    |    Hoy</span> </div>
             </div>
             <div class="incoming_msg">
               <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
               <div class="received_msg">
                 <div class="received_withd_msg">
-                  <p>We work directly with our designers and suppliers,
-                    and sell direct to you, which means quality, exclusive
-                    products, at a price anyone can afford.</p>
-                  <span class="time_date"> 11:01 AM    |    Today</span></div>
+                  <p>Cortes dejo que analizaramos sobre los temas de investigacion para poder establecer un problema</p>
+                  <span class="time_date"> 11:01 AM    |    Hoy</span></div>
               </div>
             </div>
           </div>

@@ -1,13 +1,15 @@
 <div class="calendar col-xs-12">
-    <div class="col-xs-12 col-sm-5 col-md-4">
+    <div class="box_min_calendar col-xs-12 col-sm-5 col-md-4">
+       <div class="col-xs-12">
         <div class="col-xs-12">
             
         </div>
         <div class="col-xs-12"></div>
+        </div>
     </div>
     <div class="box_calendar col-xs-12 col-sm-7 col-md-8">
         
-         <div id='loading'>loading...</div>
+         <div id='loading'>Cargando...</div>
 
           <div id='calendar'></div>
         
@@ -30,11 +32,33 @@
         right: 'dayGridMonth,listYear'
       },
 
+
+editable: true,
+disableDragging: true,
+firstDay: 1,
+weekends: true,
+defaultEventMinutes:30,
+monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio','Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+monthNameShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun','Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+dayNames: ['Domingo', 'Lunes', 'Martes', 'Miercoles','Jueves', 'Viernes', 'Sabado'],
+dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'],
+buttonText: {
+today: 'hoy',
+month: 'mes',
+list: 'lista',
+week: 'semana',
+day: 'dia'
+
+},
+allDaySlot: false,
+allDayText: 'Todo el dia',
+axisFormat: 'H:mm',
       displayEventTime: false, // don't show the time column in list view
 
       // THIS KEY WON'T WORK IN PRODUCTION!!!
       // To make your own Google API key, follow the directions here:
       // http://fullcalendar.io/docs/google_calendar/
+         locale: 'es',
       googleCalendarApiKey: 'AIzaSyDcnW6WejpTOCffshGDDb4neIrXVUA1EAE',
 
       // US Holidays
