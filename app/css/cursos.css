@@ -1,0 +1,25 @@
+.contenedor_cursos{
+    background: #fff;
+    padding: 10px 0px 10px 0px;
+}
+
+.search_bar{
+    width: 100%;
+}
+
+.info_general,
+.catalogo_cursos,
+.lista_cursos,
+.mis_cursos{
+    border: solid 1px #8d8d8d;
+    margin: 10px 0 10px 0;
+    padding: 20px;
+    height: 300px;
+}
+
+.catalogo_cursos_titulo,
+.mis_cursos_titulo,
+.lista_cursos_titulo,
+.info_general_titulo{
+    font-weight: bold;
+}
