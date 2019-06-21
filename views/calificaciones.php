@@ -1,6 +1,6 @@
 <div id="content_calificaciones">
 	<div id="calif_cursos">
-		<h1>Cursos: 2019 - I</h1>
+		<h1><?=$lang["ratings"]["courses"] ?>: 2019 - I</h1>
 		<div class="content_curso">
 			<p class="nombre_curso">Interacción Hombre - Computador</p>
 			<p class="">Hace 4 días</p>
@@ -20,7 +20,7 @@
 	</div>
 
 	<div id="calif_descri">
-		<h1>Tareas: Interacción Hombre - Computador</h1>
+		<h1><?=$lang["ratings"]["homework"] ?>: Interacción Hombre - Computador</h1>
 		<?php echo $htmlListaTarea;?>
 <!--		<div class="tarea">
 			<div class="descrip_tarea">

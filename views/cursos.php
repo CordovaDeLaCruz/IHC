@@ -20,7 +20,7 @@
                 <div class="col-md-6">
                     <div class="info_general col-md-12">
                         <div class="info_general_titulo">
-                            INFORMACIÓN PARA ALUMNOS
+                            <?=$lang["cursos"]["info"] ?>
                         </div>
                         <hr>
                         <div class="info_general_contenedor">
@@ -33,7 +33,7 @@
                 <div class="col-md-6">
                     <div class="catalogo_cursos col-md-12">
                         <div class="catalogo_cursos_titulo">
-                            CATÁLOGO DE CURSOS
+                            <?=$lang["cursos"]["catag"] ?>
                         </div>
                         <hr>
                         <div class="catalogo_cursos_contenedor">
@@ -44,7 +44,7 @@
                 <div class="col-md-6">
                     <div class="lista_cursos col-md-12">
                         <div class="lista_cursos_titulo">
-                            LISTA DE CURSOS
+                            <?=$lang["cursos"]["courses"] ?>
                         </div>
                         <hr>
                         <div class="lista_cursos_contenedor">
@@ -58,7 +58,7 @@
                 <div class="col-md-6">
                     <div class="mis_cursos col-md-12">
                         <div class="mis_cursos_titulo">
-                            MIS CURSOS
+                            <?=$lang["cursos"]["my_courses"] ?>
                         </div>
                         <hr>
                         <div class="mis_cursos_contenedor">

@@ -4,7 +4,7 @@
         <div class="col-xs-12 bag_color " >
             
             
-            <h1>Mis Cursos: Vista Rápida</h1>
+            <h1><?=$lang["inicio"]["mis_cursos"] ?></h1>
             <div id="sec_curso">
                 <?php echo $htmlCurso; ?>
             </div>
@@ -14,7 +14,7 @@
            </div>
         <div class="col-xs-12 col-md-6 alto_especifico">
         <div class="col-xs-12 bag_color" id="">
-            <h1>Mis Anuncios</h1>
+            <h1><?=$lang["inicio"]["mis_anuncios"] ?></h1>
             <hr id="linea">
             <p>Un nuevo triunfo para el Perú lo traen nuestros alumnos de la FISI, Carlos Ramirez, 
                 Luigi Castillo y Robert Gutierrez, asesorados por la Dra. Lenis Wong Portillo,
@@ -29,9 +29,9 @@
     <div class="col-xs-12" id="content_sec">
          <div class="col-xs-12 col-md-6 alto_especifico">
         <div class="col-xs-12 bag_color " >
-            <h1>Mis Organicaciones</h1>
+            <h1><?=$lang["inicio"]["mis_organizaciones"] ?></h1>
             <hr id="linea">
-            <h5>No se encuentra en ninguna oranigación...</h5>
+            <h5>No se encuentra en ninguna organización...</h5>
             <br>
             <br>
             <br>
@@ -40,7 +40,7 @@
         </div>
         <div class="col-xs-12 col-md-6 alto_especifico">
         <div class="col-xs-12 bag_color" id="">
-            <h1>Mis Tareas</h1>
+            <h1><?=$lang["inicio"]["mis_tareas"] ?></h1>
             <hr id="linea">
             <h5>No hay tareas pendientes...</h5>
             <br>

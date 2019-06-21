@@ -3,17 +3,31 @@ $lang = array(
     "menu" => array("Mi Facultad", "Mis Cursos", "Mis Mensajes", "Mis Calificaciones", "Calendario"),
 
     "inicio" => array(
-        "ini1" =>  "Hello",
+        "mis_cursos" =>  "Mis Cursos: Vista Rápida",
+        "mis_anuncios" => "Mis Anuncios",
+        "mis_organizaciones" => "Mis organizaciones",
+        "mis_tareas" => "Mis tareas"
     ),
-    "nosotros" => array(
-        "nos1" =>  "",
+    "cursos" => array(
+        "info" => "INFORMACIÓN PARA ALUMNOS",
+        "catag" => "CATÁLOGO DE CURSOS",
+        "courses" => "LISTA DE CURSOS",
+        "my_courses" => "MIS CURSOS"
     ),
-    "catalogo" => array(
-        "cat1" => "",
+    "ratings" => array(
+        "courses" => "Cursos",
+        "homework" => "Tareas"
     ),
-    "galeria" => array(
-        "gal1" => "",
-
+    "calendar" => array(
+        "month_array" => ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio','Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+        "month_short" => ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun','Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+        "day_names" => ['Domingo', 'Lunes', 'Martes', 'Miercoles','Jueves', 'Viernes', 'Sabado'],
+        "day_short" => ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'],
+        "today" => "hoy",
+        "month" => "mes",
+        "list" => "lista",
+        "week" => "semana",
+        "day" => "día"
     ),
     "contactenos" => array(
         "contc1" => "",

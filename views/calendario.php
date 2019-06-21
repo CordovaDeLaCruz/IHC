@@ -31,16 +31,16 @@ disableDragging: true,
 firstDay: 1,
 weekends: true,
 defaultEventMinutes:30,
-monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio','Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
-monthNameShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun','Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
-dayNames: ['Domingo', 'Lunes', 'Martes', 'Miercoles','Jueves', 'Viernes', 'Sabado'],
-dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'],
+monthNames: <?php echo json_encode($lang["calendar"]["month_array"]); ?>,
+monthNameShort: <?php echo json_encode($lang["calendar"]["month_short"]); ?>,
+dayNames: <?php echo json_encode($lang["calendar"]["day_names"]); ?>,
+dayNamesShort: <?php echo json_encode($lang["calendar"]["day_short"]); ?>,
 buttonText: {
-today: 'hoy',
-month: 'mes',
-list: 'lista',
-week: 'semana',
-day: 'dia'
+today: <?php echo json_encode($lang["calendar"]["today"]); ?>,
+month: <?php echo json_encode($lang["calendar"]["month"]); ?>,
+list: <?php echo json_encode($lang["calendar"]["list"]); ?>,
+week: <?php echo json_encode($lang["calendar"]["week"]); ?>,
+day: <?php echo json_encode($lang["calendar"]["day"]); ?>
 
 },
 allDaySlot: false,
@@ -51,7 +51,7 @@ axisFormat: 'H:mm',
       // THIS KEY WON'T WORK IN PRODUCTION!!!
       // To make your own Google API key, follow the directions here:
       // http://fullcalendar.io/docs/google_calendar/
-         locale: 'es',
+         locale: <?php echo json_encode($site['lang'])?>,
       googleCalendarApiKey: 'AIzaSyDcnW6WejpTOCffshGDDb4neIrXVUA1EAE',
 
       // US Holidays

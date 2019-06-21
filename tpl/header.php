@@ -89,10 +89,10 @@ switch (basename($_SERVER['PHP_SELF'])) {
     <div class="container">
        <nav>
            <li><a class="<?= $fac; ?>" href="inicio.php"><?=$lang["menu"][0] ?></a></li>
-           <li><a class="<?= $cur; ?>" href="cursos.php">Mis Cursos</a></li>
-           <li><a class="<?= $men; ?>" href="mensajes.php">Mis Mensajes</a></li>
-           <li><a class="<?= $calific; ?>" href="calificaciones.php">Mis Calificaciones</a></li>
-           <li><a class="<?= $calend; ?>" href="calendario.php">Calendario</a></li>
+           <li><a class="<?= $cur; ?>" href="cursos.php"><?=$lang["menu"][1] ?></a></li>
+           <li><a class="<?= $men; ?>" href="mensajes.php"><?=$lang["menu"][2] ?></a></li>
+           <li><a class="<?= $calific; ?>" href="calificaciones.php"><?=$lang["menu"][3] ?></a></li>
+           <li><a class="<?= $calend; ?>" href="calendario.php"><?=$lang["menu"][4] ?></a></li>
        </nav> 
     </div>
 </div>

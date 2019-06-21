@@ -14,7 +14,7 @@ define('PASS_DB', 'test2019');
 $site = array(
     "charset" => "UTF-8"
     ,"lang" => "es"
-    ,"name" => "MI EMPRESA"//titulo de página
+    ,"name" => "Aula Virtual FISI"//titulo de página
     ,"keywords" => "" // palabras claves - head
     ,"description" => "" // descripcion - head
     ,"index" => "off" // valores off/on para que la web indexe en los buscadores
