@@ -1,54 +1,115 @@
 /*============CONTENEDOR PRIMARIO============*/
-#content_pri{
-	display: inline-block;
-	padding: 30px;
-	width: 100%;
+
+
+.bag_color h1{
+    font-size:1.4em;
+}
+.fondo_curso{
+    background: #fff !important;
+}
+.bag_color{
+    background-color: #fafafa;
+    border: solid 1px #8d8d8d;
+    height: 250px
+}
+.alto_especifico{
+    margin-top: 20px;
+}
+#sec_curso{
+    overflow-y: scroll;
 }
 /*============CONTENEDOR SECUNDARIO============*/
-#content_sec{
-    display: inline-block;
-    padding: 30px;
-	width: 100%;
+#content_sec,#content_pri{
+    padding: 0px;
+    
+	
+}
+.fondo_curso{
+    padding-bottom: 20px;
 }
 /*============CURSOS============*/
 #mis_cursos{
-	display: inline-block;
+	
 	border: solid 1px #8d8d8d;
-    width: 40%;
+    
 	padding: 10px 30px 30px 30px;
 	bottom: 0px;
 	background-color: #fafafa;
 }
 /*============ANUNCIOS============*/
 #mis_anuncios{
-	display: inline-block;
+
 	border: solid 1px #8d8d8d;
-	float: right;
-	width: 57%;
+
+	
 	padding: 10px 30px 30px 30px;
-	height: 100%;
+	
 	background-color: #fafafa;
 }
 /*============ORGANIZACIONES============*/
 #mis_organizaciones{
-	display: inline-block;
+
 	border: solid 1px #8d8d8d;
-    width: 40%;
+
 	padding: 10px 30px 30px 30px;
 	bottom: 0px;
 	background-color: #fafafa;
 }
 /*============TAREAS============*/
 #mis_tareas{
-	display: inline-block;
+
 	border: solid 1px #8d8d8d;
-	float: right;
-	width: 57%;
+
+
 	padding: 10px 30px 30px 30px;
-	height: 100%;
+
 	background-color: #fafafa;
 }
 #linea{
     border: 1px #8d8d8d solid;
 }
+
+
+/*Responsive*/
+
+/* iphone 4 */
+@media (max-width: 320px){
+
+}/*Fin 320*/
+
+@media (min-width:321px) and (max-width:425px){
+  
+}
+
+/* especial */ 
+@media (min-width: 560px) {
+  
+}/*Fin 560*/
+
+
+@media (min-width: 768px){
+.bag_color h1{
+    font-size: 2.2em;
+}
+    #content_pri,#content_sec{
+
+	padding: 30px;
+	
+}
+}/*Fin 768*/
+
+@media (min-width: 992px){
+    .alto_especifico{
+        margin-top: 0px;
+    }
+    .bag_color h1{
+    font-size: 2.3em;
+}
+}/*Fin 992*/
+
+@media (min-width: 1200px) {
+.bag_color h1{
+    font-size: 2.4em;
+}
+}/*Fin 1200*/
 

@@ -14,7 +14,12 @@ html {
     width: 100%;
     position: absolute;
 }
-
+.panel_login>div{
+    
+}
+.panel_login .container{
+    
+}
 .panel_container{
     height: 500px;
 }
@@ -22,9 +27,9 @@ html {
     height: 500px;
     text-align: center;
     color: white;
-    font-size: 24px;
+    font-size: 22px;
     border-radius: 15px 0px 0px 15px;
-    padding: 40px 40px 40px 40px;
+    padding: 40px 10px 40px 10px;
     background-color: rgb(30,57,132,0.9);
 }
 
@@ -56,6 +61,7 @@ html {
 
 .input_login:focus{
     border-color:#FFB30F;
+    box-shadow: none;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -76,10 +82,52 @@ html {
     border-color:#FFB30F;
     color: black;
     font-size: 16px;
-    width: 200px; 
+    width: 200px;
+    transition: all 0.4s;
+}
+.button_login a{
+    
+}
+.button_login:hover{
+    color: #fff;
 }
 
 .button_login:focus, .button_login:hover{
     background-color:#C78400;
     border-color:#C78400;
 }
+
+
+/* iphone 4 */
+@media (max-width: 320px){
+
+}/*Fin 320*/
+
+@media (min-width:321px) and (max-width:425px){
+  
+}
+
+/* especial */ 
+@media (min-width: 560px) {
+  
+}/*Fin 560*/
+
+
+@media (min-width: 768px){
+}/*Fin 768*/
+
+@media (min-width: 992px){
+
+}/*Fin 992*/
+
+@media (min-width: 1200px) {
+.panel_left{
+    height: 500px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 40px 40px 40px 40px;
+    background-color: rgb(30,57,132,0.9);
+}
+}/*Fin 1200*/

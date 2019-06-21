@@ -20,6 +20,12 @@ header{
     padding-left: 50px;
 }
 
+.h-hover-idioma{
+    color: #fff !important;
+}
+.h-slash{
+    background: #fff !important;
+}
 .logo_movil img{
     width: 60px;
 }
@@ -94,7 +100,9 @@ header{
 .linea1{
     transform: translate()
 }
-
+footer{
+    padding: 0 !important;
+}
 .footer1{
     background: #1C282D; 
     padding: 10px 0px;
@@ -160,6 +168,8 @@ header{
 
 .header_opciones nav{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .header_opciones li{
     list-style: none;
@@ -270,6 +280,11 @@ body{
 
 
 @media (min-width: 768px){
+    .header_opciones nav{
+
+    flex-direction: row;
+    align-items: center;
+}
 .footer11 img{
     margin: inherit;
 }

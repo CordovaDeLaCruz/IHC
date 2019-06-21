@@ -23,3 +23,7 @@
 .info_general_titulo{
     font-weight: bold;
 }
+
+.hover_link{
+    text-decoration: none !important;
+}

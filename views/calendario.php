@@ -1,13 +1,6 @@
 <div class="calendar col-xs-12">
-    <div class="box_min_calendar col-xs-12 col-sm-5 col-md-4">
-       <div class="col-xs-12">
-        <div class="col-xs-12">
-            <div id="datepicker"></div>
-        </div>
-        <div class="col-xs-12"></div>
-        </div>
-    </div>
-    <div class="box_calendar col-xs-12 col-sm-7 col-md-8">
+
+    <div class="box_calendar col-xs-12 ">
         
          <div id='loading'>Cargando...</div>
 

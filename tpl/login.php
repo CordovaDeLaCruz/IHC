@@ -1,3 +1,6 @@
+<?php require_once 'common/config.php'; ?>
+<?php require_once 'controllers/login.php';  ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

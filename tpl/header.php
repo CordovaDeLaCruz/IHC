@@ -41,27 +41,31 @@ switch (basename($_SERVER['PHP_SELF'])) {
         </div>
         <div class="opciones_header col-xs-8 col-sm-10 col-md-8">
             <nav class="menu">
-                <li class="opc_link">
+                <li class="opc_link hidden-xs">
                     <select class="form-control">
-                      <option checked>SEMESTRES</option>
-                      <option>2019-I</option>
-                      <option>2018-II</option>
-                      <option>2018-I</option>
-                      <option>2017-II</option>
+                      <option checked disabled>SEMESTRES</option>
+                      <?php echo $semestres;?>
                     </select>
                </li>
-               <li class="opc_link">
-                   <select class="">
-                      <option checked>Español</option>
-                      <option>Ingles</option>
-                    </select>
+               <li class="opc_link ">
+                   <?php 
+                      if($site['lang'] == 'es'){
+                          $es_activo = "idiomaActivo";
+                        }
+                      if ($site['lang'] == 'en') {
+                          $en_activo = "idiomaActivo";
+                      }
+                    ?>
+                      
+                   
+                    <a class="hIdiomaActivo" href="inicio.php?lang=es"><span class=" <?= $es_activo; ?> h-hover-idioma h-hover-idioma1">Es </span><span class="h-slash"> / </span>  </a><a class="h-idiomaActivo" href="inicio.php?lang=en"> <span class="<?= $en_activo; ?> h-hover-idioma h-hover-idioma2"> En</span></a>
                </li>
-               <li class="opc_link">
+               <li class="opc_link hidden-xs">
                    <button>
                        <img class=" block-center" src="app/img/email.png" alt="">
                    </button>
                </li>
-                <li class="opc_link">
+                <li class="opc_link hidden-xs">
                    <button>
                        <i class="material-icons md-36" style="font-size:40px; color:white;">person</i>
                         <!-- <span class="glyphicon glyphicon-user" aria-hidden="true" style="font-size:30px;color:white"></span> -->
@@ -84,7 +88,7 @@ switch (basename($_SERVER['PHP_SELF'])) {
 <div class="header_opciones col-xs-12">
     <div class="container">
        <nav>
-           <li><a class="<?= $fac; ?>" href="inicio.php">Mi Facultad</a></li>
+           <li><a class="<?= $fac; ?>" href="inicio.php"><?=$lang["menu"][0] ?></a></li>
            <li><a class="<?= $cur; ?>" href="cursos.php">Mis Cursos</a></li>
            <li><a class="<?= $men; ?>" href="mensajes.php">Mis Mensajes</a></li>
            <li><a class="<?= $calific; ?>" href="calificaciones.php">Mis Calificaciones</a></li>

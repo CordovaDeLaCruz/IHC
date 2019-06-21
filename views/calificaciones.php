@@ -21,26 +21,8 @@
 
 	<div id="calif_descri">
 		<h1>Tareas: Interacción Hombre - Computador</h1>
-		<div class="tarea">
-			<div class="descrip_tarea">
-				<h4>TALLER 1</h4>
-				<p>Se realiza una encuesta para conocer a los usuarios finales del sistema. La encuesta debe tener preguntas que apoyen el análisis para la elaboración de los prototipos y posteriormente el diseño de la interfaz gráfica del sistema.</p>	
-			</div>
-			<div class="caract_tarea">
-				<div class="estado">
-					<div>ESTADO:</div>
-					<div id="entregado">Entregado</div>
-				</div>
-				<div class="nota">
-					<div>NOTA:</div>
-					<div>
-						<div>14</div>
-					</div>
-				</div>	
-			</div>
-			
-		</div>
-		<div class="tarea">
+		<?php echo $htmlListaTarea;?>
+<!--		<div class="tarea">
 			<div class="descrip_tarea">
 				<h4>PRIMER TRABAJO DE INVESTACIÓN</h4>
 				<p>El alumno debe investigar sobre modelo mental, diseño centrado en el usuario y retos de las interfaces para las nuevas tecnologías. El alumno deberá exponer su investigación en la siguiente clase (no hay otra fecha de presentación).</p>	
@@ -76,6 +58,6 @@
 					</div>
 				</div>	
 			</div>
-		</div>
+		</div>-->
 	</div>
 </div>

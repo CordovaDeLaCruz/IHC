@@ -50,12 +50,7 @@
                         <div class="lista_cursos_contenedor">
                             <div class="col-md-12">
                                 <p>Cursos en los que usted es: Alumno</p>
-                                <div class="panel panel-primary">
-                                    <div class="panel-heading">20W0804: INTERACCIÓN HOMBRE - COMPUTADOR</div>
-                                    <div class="panel-body">
-                                        Profesores: Carlos, Yañez Duran
-                                    </div>
-                                </div>
+                               <?php echo $htmlListaCurso?>
                             </div>
                         </div>
                     </div>
@@ -69,13 +64,7 @@
                         <div class="mis_cursos_contenedor">
                             <div class="col-md-12">
                                 <p>Cursos en los que usted es: Alumno</p>
-                                <a href="cursos-detalle.php">
-                                    <div class="panel panel-default">
-                                        <div class="panel-body">
-                                            INTERACCIÓN HOMBRE - COMPUTADOR
-                                        </div>
-                                    </div>
-                                </a>
+                                <?php echo $htmlMisCurso?>
                             </div>
                         </div>
                     </div>

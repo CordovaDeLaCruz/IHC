@@ -4,13 +4,13 @@
             <div class="col-md-12">
                 <div class="container">
                     <div class="panel_container">
-                        <div class="panel_left col-md-3 col-md-offset-2">
+                        <div class="panel_left col-md-3 col-md-offset-2 visible-md visible-lg">
                             <div class="panel_left_title">
                                 BIENVENIDOS AL AULA VIRTUAL DE LA FACULTAD DE INGENIERIA DE SISTEMAS E INFORMATICA
                             </div>
                             <div class="panel_left_icons">
-                                <img src="app/img/logo_web.png" alt="">
-                                <img src="app/img/fb_logo.png" alt="">
+                                <a href=""><img src="app/img/logo_web.png" alt=""></a>
+                                <a href=""><img src="app/img/fb_logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="panel_right col-md-5">
@@ -19,18 +19,23 @@
                             </div>
                             <div class="panel_right_form">
                                 <div class="col-md-10 col-md-offset-1">
-                                    <form action="">
+                                    <form action="<?= URL; ?>" method="post">
                                         <div class="form-group input_login">
-                                            <input type="email" class="form-control input_login" id="exampleInputEmail1" placeholder="Email">
+                                            <input type="email" class="form-control input_login" id="exampleInputEmail1" name="email" placeholder="Email">
                                         </div>
                                         <div class="form-group input_login">
-                                            <input type="password" class="form-control input_login" id="exampleInputPassword1" placeholder="Contraseña">
+                                            <input type="password" class="form-control input_login" id="exampleInputPassword1" name="password" placeholder="Contraseña">
                                         </div>
                                         <div class="form-group center-block">
-                                            <a href="inicio.php">
-                                                <input type="button" class="btn btn-default button_login center-block" value="Acceder">
-                                            </a>
+                                           
+                                            <button type="submit" class="btn btn-default button_login center-block" name="acceder" value="1">
+                                                    Acceder
+                                            </button>
+                                           
                                         </div>
+                                        
+                                            <?= $msg; ?>
+                                        
                                     </form>
                                 </div>
                             </div>
