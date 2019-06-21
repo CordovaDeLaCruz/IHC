@@ -31,7 +31,7 @@
         <div class="col-xs-12 bag_color " >
             <h1><?=$lang["inicio"]["mis_organizaciones"] ?></h1>
             <hr id="linea">
-            <h5>No se encuentra en ninguna organización...</h5>
+            <h5><?=$lang["inicio"]["org_mess"] ?></h5>
             <br>
             <br>
             <br>
@@ -42,7 +42,7 @@
         <div class="col-xs-12 bag_color" id="">
             <h1><?=$lang["inicio"]["mis_tareas"] ?></h1>
             <hr id="linea">
-            <h5>No hay tareas pendientes...</h5>
+            <h5><?=$lang["inicio"]["tar_mess"] ?></h5>
             <br>
             <br>
             <br>

@@ -104,13 +104,13 @@ switch (basename($_SERVER['PHP_SELF'])) {
 
 <div class="menu_opc_movil">
     <div class="cont_opc_movil">
-        <li><a href="#">Mi Perfil</a></li>
-         <li><a href="calendario.php">Calendario</a></li>
-          <li><a href="mensajes.php">Mensajes</a></li>
-         <li><a href="calificaciones.php">Calificaciones</a></li>
+        <li><a href="#"><?=$lang["menu_mov"]["perfil"] ?></a></li>
+         <li><a href="calendario.php"><?=$lang["menu_mov"]["calendar"] ?></a></li>
+          <li><a href="mensajes.php"><?=$lang["menu_mov"]["mess"] ?></a></li>
+         <li><a href="calificaciones.php"><?=$lang["menu_mov"]["rat"] ?></a></li>
          <div class="cont_button_cerrar">
              <a href="login.php">
-                 <button>Cerrar Sesión</button>
+                 <button><?=$lang["menu_mov"]["out"] ?></button>
              </a>
          </div>
     </div>

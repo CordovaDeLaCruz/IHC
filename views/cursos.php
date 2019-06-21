@@ -4,7 +4,7 @@
             <div class="col-md-12">
                 <div class="busqueda col-md-6">
                     <form class="navbar-form" role="search">
-                        <label for="srch-term">Búsqueda por</label>
+                        <label for="srch-term"><?=$lang["search"] ?></label>
                         <div class="input-group search_bar">
                             <input class="form-control" placeholder="Busqueda" name="srch-term" id="srch-term" type="text">
                             <div class="input-group-btn">
@@ -25,7 +25,7 @@
                         <hr>
                         <div class="info_general_contenedor">
                             <div class="col-md-12">
-                                <p>Un mensaje general por parte del administrador</p>
+                                <p><?=$lang["cursos"]["info_mess"] ?></p>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                         <hr>
                         <div class="lista_cursos_contenedor">
                             <div class="col-md-12">
-                                <p>Cursos en los que usted es: Alumno</p>
+                                <p><?=$lang["cursos"]["list_mess"] ?></p>
                                <?php echo $htmlListaCurso?>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                         <hr>
                         <div class="mis_cursos_contenedor">
                             <div class="col-md-12">
-                                <p>Cursos en los que usted es: Alumno</p>
+                                <p><?=$lang["cursos"]["cour_mess"] ?></p>
                                 <?php echo $htmlMisCurso?>
                             </div>
                         </div>

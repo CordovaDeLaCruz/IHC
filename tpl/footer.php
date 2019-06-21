@@ -5,13 +5,17 @@
                 <img class="img-responsive " src="app/img/logo_movil.png" alt="">
             </div>
             <div class="footer12 col-xs-12 col-sm-6">
-                <p>Visítanos:</p>
+                <p><?=$lang["pie"]["visit"] ?></p>
                 <div class="img_footer">
                     <li>
-                        <img class="img-responsive"  src="app/img/logo_web.png" alt="">
+                        <a href="http://sistemas.unmsm.edu.pe" target="_blank">
+                            <img class="img-responsive"  src="app/img/logo_web.png" alt="">
+                        </a>
                     </li>
                     <li>
-                        <img  class="img-responsive"  src="app/img/fb_logo.png" alt="">
+                        <a href="https://www.facebook.com/Facultad-de-Ingenier%C3%ADa-de-Sistemas-e-Informática-UNMSM-Página-Oficial-102069853667291/" target="_blank">
+                            <img  class="img-responsive"  src="app/img/fb_logo.png" alt="">
+                        </a>
                     </li>
                 </div>
             </div>

@@ -3,28 +3,28 @@
         <div class="contenedor_opciones col-xs-5">
             <div>
                 <ul class="list-group">
-                    <li class="list-group-item">Mis anuncios</li>
-                    <li class="list-group-item">Bibliografía del Curso</li>
-                    <li class="list-group-item">Lecturas</li>
-                    <li class="list-group-item">Mis calificaciones</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["anun"] ?></li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["bib"] ?></li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["lect"] ?></li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["rat"] ?></li>
                 </ul>
             </div>
             <div>
                 <ul class="list-group">
-                    <li class="list-group-item">Semana 1</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 1</li>
                     <li class="list-group-item">
-                    <a href="tarea.php">Semana 2</a>
+                    <a href="tarea.php"><?=$lang["cursos_deta"]["week"] ?> 2</a>
                     </li>
-                    <li class="list-group-item">Semana 3</li>
-                    <li class="list-group-item">Semana 4</li>
-                    <li class="list-group-item">Semana 5</li>
-                    <li class="list-group-item">Semana 6</li>
-                    <li class="list-group-item">Semana 7</li>
-                    <li class="list-group-item">Semana 8</li>
-                    <li class="list-group-item">Semana 9</li>
-                    <li class="list-group-item">Semana 10</li>
-                    <li class="list-group-item">Semana 11</li>
-                    <li class="list-group-item">Semana 12</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 3</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 4</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 5</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 6</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 7</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 8</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 9</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 10</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 11</li>
+                    <li class="list-group-item"><?=$lang["cursos_deta"]["week"] ?> 12</li>
                 </ul>
             </div>
         </div>
@@ -48,7 +48,7 @@
                         <div>
                             <i class="material-icons md-36">local_library</i>
                         </div>
-                        <h5>DESCRIPION DE LA TAREA</h5>
+                        <h5><?=$lang["tarea_deta"]["des"] ?></h5>
                     </div>
                     <div class="curso_bienvenida_cuerpo">
                         <p>
@@ -59,7 +59,7 @@
                         </p>
                     </div>
                     <div>
-                        <h5>MATERIAL DE LA TAREA:</h5>
+                        <h5><?=$lang["tarea_deta"]["mat"] ?>:</h5>
                         <div class="curso_bienvenida center-block">
                             <div>
                                 <i class="material-icons md-36">cloud_download</i>

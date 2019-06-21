@@ -9,8 +9,8 @@
                                 BIENVENIDOS AL AULA VIRTUAL DE LA FACULTAD DE INGENIERIA DE SISTEMAS E INFORMATICA
                             </div>
                             <div class="panel_left_icons">
-                                <a href=""><img src="app/img/logo_web.png" alt=""></a>
-                                <a href=""><img src="app/img/fb_logo.png" alt=""></a>
+                                <a href="http://sistemas.unmsm.edu.pe" target="_blank"><img src="app/img/logo_web.png" alt=""></a>
+                                <a href="https://www.facebook.com/Facultad-de-Ingenier%C3%ADa-de-Sistemas-e-Informática-UNMSM-Página-Oficial-102069853667291/" target="_blank"><img src="app/img/fb_logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="panel_right col-md-5">

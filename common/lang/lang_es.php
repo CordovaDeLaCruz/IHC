@@ -1,18 +1,36 @@
 <?php
 $lang = array(
-    "menu" => array("Mi Facultad", "Mis Cursos", "Mis Mensajes", "Mis Calificaciones", "Calendario"),
+    "menu" => array("Facultad", "Mis Cursos", "Mis Mensajes", "Mis Calificaciones", "Calendario"),
 
     "inicio" => array(
         "mis_cursos" =>  "Mis Cursos: Vista Rápida",
         "mis_anuncios" => "Mis Anuncios",
         "mis_organizaciones" => "Mis organizaciones",
-        "mis_tareas" => "Mis tareas"
+        "mis_tareas" => "Mis tareas",
+        "org_mess" => "No se encuentra en ninguna organización...",
+        "tar_mess" => "No hay tareas pendientes..."
     ),
     "cursos" => array(
         "info" => "INFORMACIÓN PARA ALUMNOS",
         "catag" => "CATÁLOGO DE CURSOS",
         "courses" => "LISTA DE CURSOS",
-        "my_courses" => "MIS CURSOS"
+        "my_courses" => "MIS CURSOS",
+        "info_mess" => "Un mensaje general del administrador",
+        "list_mess" => "Cursos en los que usted es: Alumno",
+        "cour_mess" => "Cursos en los que usted es: Alumno"
+    ),
+    "cursos_deta" => array(
+        "anun" => "Mis anuncios",
+        "bib" => "Bibliografía del curso",
+        "lect" => "Lecturas",
+        "rat" => "Mis calificaciones",
+        "info" => "INFORMACIÓN GENERAL",
+        "wel" => "BIENVENIDO AL CURSO",
+        "week" => "Semana",
+        "tem" => "Temas",
+        "ses" => "SESIÓN",
+        "log" => "Logro de aprendizaje de la sesion",
+        "tar" => "Tareas pendientes"
     ),
     "ratings" => array(
         "courses" => "Cursos",
@@ -29,14 +47,21 @@ $lang = array(
         "week" => "semana",
         "day" => "día"
     ),
-    "contactenos" => array(
-        "contc1" => "",
+    "tarea_deta" => array(
+        "week" => "SEMANA",
+        "des" => "DESCRIPCIÓN DE LA TAREA",
+        "mat" => "MATERIAL DE LA TAREA"
     ),
-
+    "search" => "Búsqueda",
     "pie" => array(
-        "pie1" => "Desarrollado por HDC",
-        "pie2" => "",
-        "pie3" => "",
+        "visit" => "Visítanos:"
+    ),
+    "menu_mov" => array(
+        "perfil" => "Mi Perfil",
+        "calendar" => "Calendario",
+        "mess" => "Mensajes",
+        "rat" => "Calificaciones",
+        "out" => "Cerrar Sesión"
     )
 );
 ?>
